@@ -1,0 +1,5 @@
+<aura:component
+    implements="flexipage:availableForAllPageTypes,lightning:isUrlAddressable,lightning:actionOverride,force:hasRecordId"
+    description="Opportunity Quick Create Shell Aura component">
+    <c:lwcParent />
+</aura:component>

@@ -1,0 +1,5 @@
+:host {
+    --slds-dropdown-position: relative;
+    --slds-dropdown-overflow: initial;
+    --slds-dropdown-z-index: 10000;
+}

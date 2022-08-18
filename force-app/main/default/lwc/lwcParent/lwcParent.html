@@ -1,0 +1,19 @@
+<template>
+        <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true"
+            aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open slds-modal_small">
+            <div class="slds-modal__container">
+                <div class="slds-is-relative">
+                    <header class="slds-modal__header">
+                        <div class="slds-text-heading--large slds-text-align_left"><b>TEST GENERIC PARENT</b></div>
+                    </header>
+                    <div class="slds-modal__content generic-modal-content" id="modal-content-id-1">
+                        <c-lwc-child></c-lwc-child>
+                    </div>
+                    <footer class="slds-modal__footer">
+                        <lightning-button variant="Neutral" label="Cancel"></lightning-button>
+                        <lightning-button class="slds-m-left_small" variant="brand" label="Next"></lightning-button>
+                    </footer>
+                </div>
+            </div>
+        </section>
+</template>
